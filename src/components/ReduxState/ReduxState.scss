@@ -1,0 +1,29 @@
+.redux-state {
+  display: flex;
+  flex-flow: column wrap;
+
+  & > * {
+    flex: 1;
+    margin-bottom: 1rem;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &-list {
+    font-size: 1.4rem;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto;
+    gap: 1rem;
+
+    & > li {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      padding: 0.4rem;
+      background: lightgray;
+    }
+  }
+}

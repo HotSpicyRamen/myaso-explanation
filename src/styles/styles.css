@@ -1,0 +1,65 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  font-size: 1.6rem;
+  line-height: 1.4rem;
+}
+
+button,
+input {
+  padding: 0.2rem 0.4rem;
+}
+
+.input-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.input-group > * {
+  margin-right: 0.6rem;
+}
+
+.input-group > *:last-child {
+  margin-right: 0;
+}
+
+.output {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: uppercase;
+}
+
+.output > *:first-child {
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+  margin-right: 1rem;
+}
+
+.output > *:last-child {
+  font-weight: bold;
+}
+
+.wrapper > *:not(hr) {
+  padding: 1rem;
+}
+/*# sourceMappingURL=styles.css.map */
